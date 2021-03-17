@@ -1,0 +1,42 @@
+server_connect_timeout: 5000
+listeners:
+- query_port: 25565
+  motd: ''
+  tab_list: GLOBAL_PING
+  query_enabled: false
+  proxy_protocol: false
+  forced_hosts: {}
+  ping_passthrough: false
+  priorities:
+  - Hub
+  bind_local_address: true
+  host: 0.0.0.0:25565
+  max_players: 500
+  tab_size: 60
+  force_default_server: true
+remote_ping_cache: -1
+network_compression_threshold: 256
+permissions: {}
+log_pings: true
+connection_throttle_limit: 3
+prevent_proxy_connections: false
+timeout: 30000
+player_limit: -1
+ip_forward: true
+groups: {}
+remote_ping_timeout: 5000
+connection_throttle: 4000
+log_commands: true
+stats: dfcd789e-273a-4f98-8e24-b4e16062a92b
+online_mode: false
+forge_support: false
+disabled_commands:
+- send
+- server
+- find
+- greload
+servers:
+  Hub:
+    motd: ''
+    address: localhost:25570
+    restricted: false
